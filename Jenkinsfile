@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com'
+                git branch: 'main', url: 'https://github.com/mahe-vit/project3.git'
             }
         }
         stage ('Parallel Checks') {
